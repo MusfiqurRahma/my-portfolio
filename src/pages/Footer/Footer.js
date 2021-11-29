@@ -4,7 +4,7 @@ import './Footer.css';
 
 const Footer = () => {
     return (
-        <div style={{backgroundColor:'black'}}>
+        <div style={{backgroundColor:'#0a0416'}}>
              <Container>
             <Row>
             <Col xs={12} md={4}>
@@ -16,13 +16,13 @@ const Footer = () => {
            <Col xs={12} md={4}>
               <div>
                <a href="dd">
-                <i class="fab fa-github"></i>          
+                <i className="fab fa-github git"></i>          
                </a>
                 <a href="dd">
-                    <i class="fab fa-linkedin"></i>
+                    <i className="fab fa-linkedin linkedInn"></i>
                 </a>
                 <a href="dd">
-                  <i class="fab fa-facebook-square"></i>
+                  <i className="fab fa-facebook-square fb"></i>
                 </a>
               </div>
             </Col>

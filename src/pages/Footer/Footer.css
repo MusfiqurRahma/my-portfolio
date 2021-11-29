@@ -7,20 +7,18 @@
 a{
     color: white;
 }
-.fa-github{
+.git{
     font-size: 20px;
     margin-top: 10px;
     margin-right: 8px;  
 }
-.fa-github:hover{
-    background-color: #800080;
-}
-.fa-linkedin{
+.linkedInn{
     font-size: 20px;
     margin-right: 8px; 
-    background-color: #0b74b1;
+    color: #0b74b1;
 }
-.fa-facebook-square{
+
+.fb{
     font-size: 20px;
     margin-right: 8px;
     background-color: #4064ac; 
