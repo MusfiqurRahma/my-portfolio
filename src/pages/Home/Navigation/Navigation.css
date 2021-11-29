@@ -1,0 +1,15 @@
+.body-container{
+    background-image: url('../../../Image/jason-leung-Xaanw0s0pMk-unsplash.jpg');
+    height: 100vh;
+    background-size: cover;
+}
+.navLeft{
+    margin-left: 34%;
+}
+.nav-list{
+    text-decoration: none;
+    font-size: 18px;
+}
+.nav-list:hover{
+    border-bottom: 2px solid white;
+}
