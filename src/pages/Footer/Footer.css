@@ -1,0 +1,27 @@
+.dev-by{
+    font-weight: 800;
+    color:#ffffff;
+    margin-top: 5px;
+    
+}
+a{
+    color: white;
+}
+.fa-github{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-right: 8px;  
+}
+.fa-github:hover{
+    background-color: #800080;
+}
+.fa-linkedin{
+    font-size: 20px;
+    margin-right: 8px; 
+    background-color: #0b74b1;
+}
+.fa-facebook-square{
+    font-size: 20px;
+    margin-right: 8px;
+    background-color: #4064ac; 
+}

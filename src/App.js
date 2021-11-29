@@ -1,15 +1,16 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import About from './pages/Home/About/About';
+import Resume from './pages/Home/Resume/Resume';
+import Contact from './pages/Home/Contact/Contact';
+import Blogs from './pages/Home/Blogs/Blogs';
+import Home from './pages/Home/Home/Home';
 import {
   BrowserRouter,
   Routes,
   Route
 } from "react-router-dom";
-import Home from './pages/Home/Home/Home';
-import About from './pages/Home/About/About';
-import Resume from './pages/Home/Resume/Resume';
-import Contact from './pages/Home/Contact/Contact';
-import Blogs from './pages/Home/Blogs/Blogs';
+import Projects from './pages/Home/Projects/Projects';
 
 function App() {
   return (
@@ -24,7 +25,9 @@ function App() {
           </Route>
           <Route path='/resume' element={<Resume></Resume>}>
           </Route>
-          <Route path='/contactMe' element={<Contact></Contact>}>
+          <Route path='/projects' element={<Projects></Projects>}>
+          </Route>
+          <Route path='/contact' element={<Contact></Contact>}>
           </Route>
           <Route path='/blog' element={<Blogs></Blogs>}>
           </Route>
