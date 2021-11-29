@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import logoImg from '../../../Image/letter-mr-logo-colorful-splash-background-combination-design-creative-industry-web-business-company-203791253.jpg';
+import logoImg from '../../../Image/letter-mr-logo-colorful-splash-background-combination-design-creative-industry-web-business-company-203791253-removebg-preview.png';
 import './Navigation.css';
 
 const Navigation = () => {

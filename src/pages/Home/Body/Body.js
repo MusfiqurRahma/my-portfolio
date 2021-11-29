@@ -3,6 +3,8 @@ import { Col, Container, Row } from 'react-bootstrap';
 import pcImg from '../../../Image/graphicstock-student-sitting-at-the-table-with-laptop-student-using-laptop-for-education-man-working-on-laptop-and-writing-notes-educational-technology-concept-vector-flat-design-illustration-square-l.png'
 import Typical from 'react-typical';
 import './Body.css';
+import Zoom from 'react-reveal/Zoom';
+import Wobble from 'react-reveal/Wobble';
 
 const Body = () => {
     return (
@@ -29,13 +31,17 @@ const Body = () => {
                         ]}
                         /></h1>
                </Col>
-               <Col sm={12} md={5}>
-                   <img style={{height:'120%'}} src={pcImg} alt="" />       
+                    <Col sm={12} md={5}>
+                    <Zoom>
+                <img height="300" width="400" src={pcImg} alt=""/>
+                 </Zoom>
+                   {/* <img style={{height:'120%'}} src={pcImg} alt="" />        */}
                </Col>
                 </Row>
                 <Row style={{marginTop:'30%'}}>
                     <Col sm={12} md={7}>
-                        <h1>LET ME
+                    <Wobble>
+                    <h1>LET ME
                             <span style={{ color: '#c770f0' }}>INTRODUCE</span>
                             MYSELF</h1>
 
@@ -60,7 +66,8 @@ const Body = () => {
                             <i style={{ color: '#c770f0' }}>Modern Javascript Library and Frameworks
                             </i> like
                             <i style={{ color: '#c770f0' }}>React.js and varities packages.</i>
-                        </h4>
+                        </h4> 
+                     </Wobble>                      
                     </Col>
                    <Col sm={12} md={5}>sm=4</Col>
                 </Row>
