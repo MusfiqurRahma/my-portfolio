@@ -13,7 +13,7 @@ const styleColor = {
 
 const Body = () => {
     return (
-         <div className='body-container' style={{backgroundColor:'#15151c',height:'220vh'}}>
+         <div className='body-container' style={{backgroundColor:'#110e19',height:'200vh'}}>
             <Container>
             <Row>
                <Col sm={12} md={7}>
@@ -24,15 +24,15 @@ const Body = () => {
                             loop={Infinity}
                             steps={[
                             "Javascript Lover",
-                            4000, 
+                            1000, 
                             "Full Stack Developer",
-                            4000, 
+                            1000, 
                             "MERN Stack Developer",
-                            4000, 
+                            1000, 
                             "Enthuastic Developer",
-                            4000, 
+                            1000, 
                             "Deep Learner",
-                            4000, 
+                            1000, 
                         ]}
                         /></h1>
                </Col>
@@ -43,8 +43,11 @@ const Body = () => {
                </Col>
                 </Row>
                 <Row style={{marginTop:'15%'}}>
-                    <Col sm={12} md={6}>
-                    <Wobble>
+                    <Col sm={12} md={5}>
+                       <img className='my-img' width='500' src={myImg} alt="" />
+                    </Col>
+                    <Col sm={12} md={7}>
+                        <Wobble>
                             <h1 style={styleColor}>LET ME
                                 <span style={{ color: '#c770f0' }}>   INTRODUCE </span>
                              MYSELF</h1>
@@ -71,26 +74,23 @@ const Body = () => {
                             </i> like
                             <i style={{ color: '#c770f0' }}> React.js and varities packages.</i>
                         </h5> 
-                     </Wobble>                      
-                    </Col>
-                    <Col sm={12} md={6}>
-                        <img src={myImg} alt="" />
+                     </Wobble>         
                    </Col>
                 </Row>
             </Container>
             <div style={{marginTop:'6%'}}>
             <h1 style={styleColor}>FIND ME ON</h1>
                 <h5 style={styleColor}>Feel free to <span style={{ color: '#c072ee' }}>connect</span> with me.</h5>
-               <a href="dd">
+                <a href="https://github.com/MusfiqurRahma">
                 <i class="fab fa-github github"></i>          
                </a>
-                <a href="dd">
+                <a href="https://www.linkedin.com/in/md-musfiqur-rohoman-b88650219/">
                     <i className="fab fa-linkedin linkedIn"></i>
                 </a>
-                <a href="dd">
+                <a href="https://web.facebook.com/musfiq074/">
                   <i className="fab fa-facebook-square facebook"></i>
                 </a>
-                <a href="dd">
+                <a href="https://www.instagram.com/mus_fi_que/">
                 <i class="fab fa-instagram instagram"></i>
                 </a>
            </div>

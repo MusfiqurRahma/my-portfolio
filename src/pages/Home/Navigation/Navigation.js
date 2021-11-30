@@ -1,15 +1,15 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import logoImg from '../../../Image/letter-mr-logo-colorful-splash-background-combination-design-creative-industry-web-business-company-203791253-removebg-preview.png';
-import './Navigation.css';
+// import logoImg from '../../../Image/letter-mr-logo-colorful-splash-background-combination-design-creative-industry-web-business-company-203791253-removebg-preview.png';
+// import './Navigation.css';
 
 const Navigation = () => {
     return (
         <div>
             <Navbar style={{backgroundColor:'#005d70'}} variant="light" sticky='top' collapseOnSelect expand="lg">
                 <Container>
-                    <Navbar.Brand href="#home"><img style={{height:'60px'}} src={logoImg} alt="" /></Navbar.Brand>
+                    <Navbar.Brand href="#home"><img style={{height:'60px'}} src='https://i.ibb.co/x8Bycfk/letter-mr-logo-colorful-splash-background-combination-design-creative-industry-web-business-company.png' alt="" /></Navbar.Brand>
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-center navLeft">
                         <Nav className='text-primary'>
