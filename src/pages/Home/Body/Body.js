@@ -13,45 +13,44 @@ const styleColor = {
 
 const Body = () => {
     return (
-         <div className='body-container' style={{backgroundColor:'#110e19',height:'200vh'}}>
+         <div className='body-container' style={{backgroundColor:'#110e19',height:'290vh'}}>
             <Container>
             <Row>
-               <Col sm={12} md={7}>
-                  <h2 style={{color:'#ffffff'}}>Hi There!</h2>
+               <Col sm={12} md={7} style={{marginTop:'15%'}}>
+                  <h2 style={{color:'#ffffff'}}>Hey!</h2>
                         <h1 style={{color:'white'}}>I'M <span style={{color:'#a14dc4'}}>MD MUSFIQUR ROHOMAN</span></h1>
                         <h1 style={{color:'#a14dc4'}}>
                             <Typical
                             loop={Infinity}
                             steps={[
+                            "Web Developer",
+                            2000, 
                             "Javascript Lover",
-                            1000, 
-                            "Full Stack Developer",
-                            1000, 
-                            "MERN Stack Developer",
-                            1000, 
-                            "Enthuastic Developer",
-                            1000, 
+                            2000, 
+                            "Frontend Developer",
+                            2000, 
+                            "Enthusiastic Developer",
+                            2000, 
                             "Deep Learner",
-                            1000, 
+                            2000, 
                         ]}
                         /></h1>
-               </Col>
-                    <Col sm={12} md={5}>
+                   </Col>
+                    <Col sm={12} md={5} style={{marginTop:'8%'}}>
                     <Zoom>
                 <img height="400" width="400" src={pcImg} alt=""/>
                  </Zoom>
                </Col>
                 </Row>
-                <Row style={{marginTop:'15%'}}>
+                <Row style={{marginTop:'20%'}}>
                     <Col sm={12} md={5}>
-                       <img className='my-img' width='500' src={myImg} alt="" />
+                       <img style={{borderRadius:'50%',boxShadow:'0 2px 10px 2px #c770f0'}} className='my-img' width='450' src={myImg} alt="" />
                     </Col>
                     <Col sm={12} md={7}>
                         <Wobble>
                             <h1 style={styleColor}>LET ME
                                 <span style={{ color: '#c770f0' }}>   INTRODUCE </span>
                              MYSELF</h1>
-
                         <h5 style={styleColor}>I fell in love with programming and I have at least learnt something, I think… 🤷‍♂️</h5>
                         <br />
 
@@ -78,9 +77,9 @@ const Body = () => {
                    </Col>
                 </Row>
             </Container>
-            <div style={{marginTop:'6%'}}>
+            <div style={{marginTop:'25%'}}>
             <h1 style={styleColor}>FIND ME ON</h1>
-                <h5 style={styleColor}>Feel free to <span style={{ color: '#c072ee' }}>connect</span> with me.</h5>
+                <h5 style={styleColor}>Feel free to <span style={{ color: '#a85fcc'}}>connect</span> with me.</h5>
                 <a href="https://github.com/MusfiqurRahma">
                 <i class="fab fa-github github"></i>          
                </a>

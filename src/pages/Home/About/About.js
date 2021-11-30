@@ -8,23 +8,23 @@ import Swing from 'react-reveal/Swing';
 
 const About = () => {
     return (
-        <div>
+        <div  style={{backgroundColor:'#110e19'}}>
             <Navigation></Navigation>
             <Container>
             <Row className='mt-5'>
              <Col xs={12} md={6}>
-             <h1>Know Who I'AM</h1>
-            <h5>Hi Everyone, I am Musfiqur Rohoman from Manikganj, Dhaka,Bangladesh.I am a junior frontend Web Developer.</h5>
-            <h5>Apart from coding, some other activities that I love to do!</h5>
-                <h5>Swimming</h5>
-                <h5>Singing</h5>
-                <h5>Travelling</h5>
+             <h1 style={{color:'white'}}>Know Who I'AM</h1>
+            <h5 style={{color:'white'}}>Hi Everyone, I am Musfiqur Rohoman from Manikganj, Dhaka,Bangladesh.I am a junior frontend Web Developer.</h5>
+            <h5 style={{color:'white'}}>Apart from coding, some other activities that I love to do!</h5>
+                <h5  style={{color:'white'}}>Swimming</h5>
+                <h5  style={{color:'white'}}>Singing</h5>
+                <h5  style={{color:'white'}}>Travelling</h5>
              </Col>
             <Col xs={12} md={6}>
                 <img height='300' src={aboutImg} alt="" />        
              </Col>
                 </Row>
-                <h1>My Core Skills</h1>
+                <h1 style={{color:'white'}}>My Core Skills</h1>
                 <Bounce top>
                 <Row style={{gap:'20px'}}>
                     <Col xs={12} md={2}>
@@ -60,7 +60,7 @@ const About = () => {
                     <Col xs={12} md={2}>
                             <Card style={{ width: '12rem' }}>
                                 <Swing>
-                                <Card.Img style={{height:'182px'}} variant="top" src="https://i.ibb.co/ZgLrLVk/html5-480x800.jpg" />
+                                <Card.Img style={{height:'182px'}} variant="top" src="https://i.ibb.co/2PKDyVb/png-clipart-html-5-logo-web-development-html-css3-canvas-element-web-design-w3c-html5-logo-miscellan.png" />
                                 </Swing>
                     <Card.Body>
                     <Card.Title>HTML 5</Card.Title>

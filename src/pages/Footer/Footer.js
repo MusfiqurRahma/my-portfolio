@@ -4,7 +4,7 @@ import './Footer.css';
 
 const Footer = () => {
     return (
-        <div style={{backgroundColor:'#0a0416'}}>
+        <div style={{backgroundColor:'#1e1d33'}}>
              <Container>
             <Row>
             <Col xs={12} md={4}>
