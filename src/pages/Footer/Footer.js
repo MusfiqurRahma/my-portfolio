@@ -7,25 +7,9 @@ const Footer = () => {
         <div style={{backgroundColor:'#1e1d33'}}>
              <Container>
             <Row>
-            <Col xs={12} md={4}>
-              <p className='dev-by'>Designed And Developed by M Rohoman</p>
+           <Col xs={12} md={12} className='dev-by'>
+              Copyright &copy;2021,Designed and developed by &hearts; M.Rohoman
            </Col>
-           <Col xs={12} md={4} className='dev-by'>
-              Copyright &copy;2021,MR
-           </Col>
-           <Col xs={12} md={4}>
-              <div>
-               <a href="dd">
-                <i className="fab fa-github git"></i>          
-               </a>
-                <a href="dd">
-                    <i className="fab fa-linkedin linkedInn"></i>
-                </a>
-                <a href="dd">
-                  <i className="fab fa-facebook-square fb"></i>
-                </a>
-              </div>
-            </Col>
             </Row>
         </Container>
         </div>

@@ -1,0 +1,19 @@
+.form-container{
+    display: flex;
+    flex-direction: row;
+    background-color: #110e19;
+    height: 130vh;   
+}
+input ,textarea{
+    width: 80vh;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 8px;
+    font-family: poppins;
+}
+.send-btn{
+    background-color: #a14dc4;
+    border: 1px solid #a14dc4;
+    color:white;
+    font-weight: 700;
+}

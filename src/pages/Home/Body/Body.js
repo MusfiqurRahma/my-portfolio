@@ -1,19 +1,26 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import pcImg from '../../../Image/graphicstock-student-sitting-at-the-table-with-laptop-student-using-laptop-for-education-man-working-on-laptop-and-writing-notes-educational-technology-concept-vector-flat-design-illustration-square-l.png';
-import myImg from '../../../Image/Portfolio-removebg-preview.png'
 import Typical from 'react-typical';
 import './Body.css';
-import Zoom from 'react-reveal/Zoom';
-import Wobble from 'react-reveal/Wobble';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 
 const styleColor = {
     color:'white'
 }
 
 const Body = () => {
+
+    useEffect(() => {
+        AOS.init({
+          offset: 100,
+          duration: 1000,
+            easing: 'ease',
+          loop:Infinity
+        })
+      },[])
     return (
-         <div className='body-container' style={{backgroundColor:'#110e19',height:'290vh'}}>
+         <div className='body-container' style={{backgroundColor:'#110e19',height:'310vh'}}>
             <Container>
             <Row>
                <Col sm={12} md={7} style={{marginTop:'15%'}}>
@@ -37,17 +44,18 @@ const Body = () => {
                         /></h1>
                    </Col>
                     <Col sm={12} md={5} style={{marginTop:'8%'}}>
-                    <Zoom>
-                <img height="400" width="400" src={pcImg} alt=""/>
-                 </Zoom>
+                <img height="400" width="350" data-aos="zoom-in-up" src="https://i.ibb.co/09VFbjR/images-removebg-preview.png" alt=""/>
                </Col>
                 </Row>
                 <Row style={{marginTop:'20%'}}>
-                    <Col sm={12} md={5}>
-                       <img style={{borderRadius:'50%',boxShadow:'0 2px 10px 2px #c770f0'}} className='my-img' width='450' src={myImg} alt="" />
+                    <Col sm={12} md={5} style={{marginTop:'-4%'}}>
+                       <img data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000" style={{borderRadius:'50%',boxShadow:'0 2px 10px 2px #c770f0'}} className='my-img' width='450' src="https://i.ibb.co/nwVbbWr/IMG-8739-removebg-previeww.png" alt="" />
                     </Col>
-                    <Col sm={12} md={7}>
-                        <Wobble>
+                    <Col sm={12} md={7} data-aos="flip-left"
+                     data-aos-easing="ease-out-cubic"
+                     data-aos-duration="2000">
                             <h1 style={styleColor}>LET ME
                                 <span style={{ color: '#c770f0' }}>   INTRODUCE </span>
                              MYSELF</h1>
@@ -72,13 +80,13 @@ const Body = () => {
                              <i style={{ color: '#c770f0' }}> Modern Javascript Library and Frameworks
                             </i> like
                             <i style={{ color: '#c770f0' }}> React.js and varities packages.</i>
-                        </h5> 
-                     </Wobble>         
+                        </h5>        
                    </Col>
                 </Row>
             </Container>
-            <div style={{marginTop:'25%'}}>
-            <h1 style={styleColor}>FIND ME ON</h1>
+            <div style={{ marginTop: '25%' }}>
+            <h1 style={styleColor} data-aos="fade-up"
+              data-aos-duration="3000">FOLLOW ME ON</h1>
                 <h5 style={styleColor}>Feel free to <span style={{ color: '#a85fcc'}}>connect</span> with me.</h5>
                 <a href="https://github.com/MusfiqurRahma">
                 <i class="fab fa-github github"></i>          
@@ -92,7 +100,7 @@ const Body = () => {
                 <a href="https://www.instagram.com/mus_fi_que/">
                 <i class="fab fa-instagram instagram"></i>
                 </a>
-           </div>
+            </div>
         </div>
     );
 };

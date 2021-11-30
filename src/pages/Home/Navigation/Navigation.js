@@ -17,7 +17,7 @@ const Navigation = () => {
                             <Link className='text-light fw-bold me-5 nav-list' style={{textDecoration:'none'}} to="/about">About</Link>
                             <Link className='text-light fw-bold me-5 nav-list' style={{textDecoration:'none'}} to="/projects">Projects</Link>
                             <Link className='text-light fw-bold me-5 nav-list' style={{textDecoration:'none'}} to="/resume">Resume</Link>
-                            <Link className='text-light fw-bold me-5 nav-list' style={{textDecoration:'none'}} to="/contactMe">Contact</Link>
+                            <Link className='text-light fw-bold me-5 nav-list' style={{textDecoration:'none'}} to="/contact">Contact</Link>
                             <Link className='text-light fw-bold me-5 nav-list' style={{textDecoration:'none'}} to="/blog">Blog</Link>
                             </Nav>                           
                             </Navbar.Collapse>                   
