@@ -10,23 +10,23 @@ const Resume = () => {
     //     target: "_blank",
     //   };
     return (
-        <div style={{backgroundColor:'#110e19'}}>
-            <Navigation></Navigation>
+        <div>
+        <Navigation></Navigation>
             <div className='resume-container'>
             {/* <Button style={{ background: "#5F1DAA",marginTop:'50px' }} className="p-3 rounded border-0">
               <a {...resume} download={resume} className="text-decoration-none text-white">
                 <i className="fa fa-download" aria-hidden="true"></i> Download Resume
               </a>
           </Button> <br /> <br /> */}
+          <h1 style={{color:'white'}}>You can download my resume from here if you want.</h1>
           <a href={reesume} target="_blank" rel="noopener noreferrer" download>
-        <Button style={{marginTop:'50px'}}>
+        <Button style={{marginTop:'50px',backgroundColor:'#a14dc4',fontFamily:'poppins'}}>
          <i className="fas fa-download"/>
-             Download File
+            Download File
          </Button>
             </a>
             </div>
         </div>
     );
 };
-
 export default Resume;
