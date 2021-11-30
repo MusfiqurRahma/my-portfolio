@@ -11,6 +11,8 @@ import superHeroProfile from '../../../Image/projects ss/super hero profile.png'
 import macBookPro from '../../../Image/projects ss/mack-book.jpg';
 import superRestaurantProfile from '../../../Image/projects ss/super-duper-restaurant.jpg';
 import Navigation from '../Navigation/Navigation';
+import { Link } from 'react-router-dom';
+import Button from '@restart/ui/esm/Button';
 
 
 const Projects = () => {
@@ -30,7 +32,10 @@ const Projects = () => {
     <button style={{backgroundColor:'#439a18',border:'1px solid #439a18',margin:'5px',color:'white',fontFamily:'poppins'}}>Node JS</button>
     <button style={{backgroundColor:'#439a18',border:'1px solid #439a18',margin:'5px',color:'white',fontFamily:'poppins'}}>Express JS</button>
     <button style={{backgroundColor:'#439a18',border:'1px solid #439a18',margin:'5px',color:'white',fontFamily:'poppins'}}>Firebase</button>
-    <button style={{backgroundColor:'#439a18',border:'1px solid #439a18',margin:'5px',color:'white',fontFamily:'poppins'}}>Heroku</button>
+             <button style={{ backgroundColor: '#439a18', border: '1px solid #439a18', margin: '5px', color: 'white', fontFamily: 'poppins' }}>Heroku</button> <br/>
+             <Link to='/barHouse'>
+             <Button className='projects-btn'>See Details</Button>
+             </Link>
            </VerticalTimelineElement>
            
   <VerticalTimelineElement>
@@ -43,7 +48,11 @@ const Projects = () => {
     <button style={{backgroundColor:'#439a18',border:'1px solid #439a18',margin:'5px',color:'white',fontFamily:'poppins'}}>Node JS</button>
     <button style={{backgroundColor:'#439a18',border:'1px solid #439a18',margin:'5px',color:'white',fontFamily:'poppins'}}>Express JS</button>
     <button style={{backgroundColor:'#439a18',border:'1px solid #439a18',margin:'5px',color:'white',fontFamily:'poppins'}}>Firebase</button>
-    <button style={{backgroundColor:'#439a18',border:'1px solid #439a18',margin:'5px',color:'white',fontFamily:'poppins'}}>Heroku</button>
+             <button style={{ backgroundColor: '#439a18', border: '1px solid #439a18', margin: '5px', color: 'white', fontFamily: 'poppins' }}>Heroku</button>
+             <br/>
+             <Link to='/travoloky'>
+             <Button className='projects-btn'>See Details</Button>
+             </Link>
   </VerticalTimelineElement>
            
   <VerticalTimelineElement>
@@ -55,7 +64,11 @@ const Projects = () => {
     <button style={{backgroundColor:'#439a18',border:'1px solid #439a18',margin:'5px',color:'white',fontFamily:'poppins'}}>CSS 3</button>
     <button style={{backgroundColor:'#439a18',border:'1px solid #439a18',margin:'5px',color:'white',fontFamily:'poppins'}}>FakeDb</button>
     <button style={{backgroundColor:'#439a18',border:'1px solid #439a18',margin:'5px',color:'white',fontFamily:'poppins'}}>Firebase</button>
-    <button style={{backgroundColor:'#439a18',border:'1px solid #439a18',margin:'5px',color:'white',fontFamily:'poppins'}}>Heroku</button>
+             <button style={{ backgroundColor: '#439a18', border: '1px solid #439a18', margin: '5px', color: 'white', fontFamily: 'poppins' }}>Heroku</button>
+             <br/>
+             <Link to='/healthCare'>
+             <Button className='projects-btn'>See Details</Button>
+             </Link>
            </VerticalTimelineElement>
            
   <VerticalTimelineElement>
@@ -66,7 +79,11 @@ const Projects = () => {
     <button style={{backgroundColor:'#439a18',border:'1px solid #439a18',margin:'5px',color:'white',fontFamily:'poppins'}}>React Bootstrap</button>
     <button style={{backgroundColor:'#439a18',border:'1px solid #439a18',margin:'5px',color:'white',fontFamily:'poppins'}}>CSS 3</button>
     <button style={{backgroundColor:'#439a18',border:'1px solid #439a18',margin:'5px',color:'white',fontFamily:'poppins'}}>FakeDb</button>
-    <button style={{backgroundColor:'#439a18',border:'1px solid #439a18',margin:'5px',color:'white',fontFamily:'poppins'}}>Netlify</button>
+             <button style={{ backgroundColor: '#439a18', border: '1px solid #439a18', margin: '5px', color: 'white', fontFamily: 'poppins' }}>Netlify</button>
+             <br/>
+             <Link to='/smartSchool'>
+             <Button className='projects-btn'>See Details</Button>
+             </Link>
            </VerticalTimelineElement>
            
   <VerticalTimelineElement>
@@ -77,7 +94,11 @@ const Projects = () => {
     <button style={{backgroundColor:'#439a18',border:'1px solid #439a18',margin:'5px',color:'white',fontFamily:'poppins'}}> Bootstrap</button>
     <button style={{backgroundColor:'#439a18',border:'1px solid #439a18',margin:'5px',color:'white',fontFamily:'poppins'}}>CSS 3</button>
     <button style={{backgroundColor:'#439a18',border:'1px solid #439a18',margin:'5px',color:'white',fontFamily:'poppins'}}>FakeDb</button>
-    <button style={{backgroundColor:'#439a18',border:'1px solid #439a18',margin:'5px',color:'white',fontFamily:'poppins'}}>Netlify</button>
+             <button style={{ backgroundColor: '#439a18', border: '1px solid #439a18', margin: '5px', color: 'white', fontFamily: 'poppins' }}>Netlify</button>
+             <br/>
+             <Link to='/superHeroes'>
+             <Button className='projects-btn'>See Details</Button>
+             </Link>
            </VerticalTimelineElement>
            
   <VerticalTimelineElement>
@@ -88,7 +109,11 @@ const Projects = () => {
     <button style={{backgroundColor:'#439a18',border:'1px solid #439a18',margin:'5px',color:'white',fontFamily:'poppins'}}>HTML 5</button>
     <button style={{backgroundColor:'#439a18',border:'1px solid #439a18',margin:'5px',color:'white',fontFamily:'poppins'}}> Bootstrap</button>
     <button style={{backgroundColor:'#439a18',border:'1px solid #439a18',margin:'5px',color:'white',fontFamily:'poppins'}}>CSS 3</button>
-    <button style={{backgroundColor:'#439a18',border:'1px solid #439a18',margin:'5px',color:'white',fontFamily:'poppins'}}>Netlify</button>
+             <button style={{ backgroundColor: '#439a18', border: '1px solid #439a18', margin: '5px', color: 'white', fontFamily: 'poppins' }}>Netlify</button>
+             <br/>
+             <Link to='/macBook'>
+             <Button className='projects-btn'>See Details</Button>
+             </Link>
            </VerticalTimelineElement>
            
   <VerticalTimelineElement>
@@ -99,7 +124,11 @@ const Projects = () => {
     <button style={{backgroundColor:'#439a18',border:'1px solid #439a18',margin:'5px',color:'white',fontFamily:'poppins'}}>HTML 5</button>
     <button style={{backgroundColor:'#439a18',border:'1px solid #439a18',margin:'5px',color:'white',fontFamily:'poppins'}}> Bootstrap</button>
     <button style={{backgroundColor:'#439a18',border:'1px solid #439a18',margin:'5px',color:'white',fontFamily:'poppins'}}>CSS 3</button>
-    <button style={{backgroundColor:'#439a18',border:'1px solid #439a18',margin:'5px',color:'white',fontFamily:'poppins'}}>Netlify</button>
+             <button style={{ backgroundColor: '#439a18', border: '1px solid #439a18', margin: '5px', color: 'white', fontFamily: 'poppins' }}>Netlify</button>
+             <br/>
+             <Link to='/superRestaurant'>
+             <Button className='projects-btn'>See Details</Button>
+             </Link>
            </VerticalTimelineElement>
            
 </VerticalTimeline>

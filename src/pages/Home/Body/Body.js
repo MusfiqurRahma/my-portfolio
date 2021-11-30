@@ -24,7 +24,7 @@ const Body = () => {
             <Container>
             <Row>
                <Col sm={12} md={7} style={{marginTop:'15%'}}>
-                  <h2 style={{color:'#ffffff'}}>Hey!</h2>
+                  <h2 style={{color:'#ffffff'}}>Hey 😍 !</h2>
                         <h1 style={{color:'white'}}>I'M <span style={{color:'#a14dc4'}}>MD MUSFIQUR ROHOMAN</span></h1>
                         <h1 style={{color:'#a14dc4'}}>
                             <Typical
@@ -51,7 +51,7 @@ const Body = () => {
                     <Col sm={12} md={5} style={{marginTop:'-4%'}}>
                        <img data-aos="flip-left"
                         data-aos-easing="ease-out-cubic"
-                        data-aos-duration="2000" style={{borderRadius:'50%',boxShadow:'0 2px 10px 2px #c770f0'}} className='my-img' width='450' src="https://i.ibb.co/nwVbbWr/IMG-8739-removebg-previeww.png" alt="" />
+                        data-aos-duration="2000" style={{borderRadius:'50%',boxShadow:'0 2px 10px 2px #c770f0'}} className='my-img' width='450' src="https://i.ibb.co/y5t15fj/IMG-8739-removebg-previewww.png" alt="" />
                     </Col>
                     <Col sm={12} md={7} data-aos="flip-left"
                      data-aos-easing="ease-out-cubic"

@@ -1,0 +1,12 @@
+.projects-btn{
+ background-color:#439a18;
+ border: 1px solid #439a18;
+ border-radius:5px;
+ color:white;
+ font-size: 18px;
+ padding: 5px 15px;
+ font-family: poppins;
+}
+.projects-btn:hover{
+    background-color: #275311;
+}
