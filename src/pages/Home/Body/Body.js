@@ -6,7 +6,8 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 
 const styleColor = {
-    color:'white'
+    color: 'white',
+    fontFamily: 'poppins',
 }
 
 const Body = () => {
@@ -15,7 +16,7 @@ const Body = () => {
         AOS.init({
           offset: 100,
           duration: 1000,
-            easing: 'ease',
+          easing: 'ease',
           loop:Infinity
         })
       },[])
@@ -24,9 +25,9 @@ const Body = () => {
             <Container>
             <Row>
                <Col sm={12} md={7} style={{marginTop:'15%'}}>
-                  <h2 style={{color:'#ffffff'}}>Hey 😍 !</h2>
-                        <h1 style={{color:'white'}}>I'M <span style={{color:'#a14dc4'}}>MD MUSFIQUR ROHOMAN</span></h1>
-                        <h1 style={{color:'#a14dc4'}}>
+                  <h2 style={{color:'#ffffff',fontFamily:'poppins'}}>Hey 😍 !</h2>
+                        <h1 style={{color:'white',fontFamily:'poppins'}}>I'M <span style={{color:'#a14dc4'}}>MD MUSFIQUR ROHOMAN</span></h1>
+                        <h1 style={{color:'#a14dc4',fontFamily:'poppins'}}>
                             <Typical
                             loop={Infinity}
                             steps={[
@@ -59,27 +60,27 @@ const Body = () => {
                             <h1 style={styleColor}>LET ME
                                 <span style={{ color: '#c770f0' }}>   INTRODUCE </span>
                              MYSELF</h1>
-                        <h5 style={styleColor}>I fell in love with programming and I have at least learnt something, I think… 🤷‍♂️</h5>
+                        <h5 style={styleColor}>I think,I fell in love with programming and Web Developing.</h5>
                         <br />
 
-                        <h5 style={styleColor}>I am fluent in classics like
-                            <i style={{ color: '#c770f0' }}> Javascript,React,MongoDb,Node.js,Express
+                        <h5 style={styleColor}>I'm very comfortable in such technology like
+                            <i style={{ color: '#c770f0' }}> Javascript,React,MongoDB,Node.js,Express
                             </i>
                         </h5>
                         <br />
 
-                        <h5 style={styleColor}>My field of Interest's are building new <i
-                            style={{ color: '#c770f0' }}>Web Technologies and Products </i> 
+                        <h5 style={styleColor}>I'm too much interested in<i
+                            style={{ color: '#c770f0' }}> Web Technologies </i> 
                                and also in areas related to
                             <i style={{ color: '#c770f0' }}> Deep Learning and Natural Launguage Processing.
                             </i>
                         </h5>
-                        <h5 style={styleColor}>Whenever possible, I also apply my passion for developing products with
-                            <i style={{ color: '#c770f0' }}> Node.js </i>  
+                        <h5 style={styleColor}>Everyday I try to apply my passion for developing with
+                            <i style={{ color: '#c770f0' }}>  Node.js </i>  
                                and 
                              <i style={{ color: '#c770f0' }}> Modern Javascript Library and Frameworks
                             </i> like
-                            <i style={{ color: '#c770f0' }}> React.js and varities packages.</i>
+                            <i style={{ color: '#c770f0' }}> React.js and varieties packages</i> also.
                         </h5>        
                    </Col>
                 </Row>
