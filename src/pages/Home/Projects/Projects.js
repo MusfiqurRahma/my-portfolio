@@ -17,7 +17,7 @@ import Button from '@restart/ui/esm/Button';
 
 const Projects = () => {
    return (
-     <div style={{ background: '#110e19' }}>
+     <div>
        <Navigation></Navigation>
        <h1 style={{color:'white',marginTop:'40px',marginBottom:'50px'}}>My Best Works</h1> 
        <Container>

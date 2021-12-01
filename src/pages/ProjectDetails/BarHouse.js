@@ -1,6 +1,7 @@
 import React from "react";
 import {Container} from "react-bootstrap";
 import SimpleImageSlider from "react-simple-image-slider";
+import './BarHouse.css';
 
 const images = [
     { url: "https://i.ibb.co/KFrsSVn/Bar-1-new.png" },
@@ -10,8 +11,8 @@ const images = [
 
 const BarHouse = () => {
     return (
-        <div style={{ background: '#110e19', height: '140vh' }}>
-            <h1 style={{ color: 'white',marginBottom:'20px',fontFamily:'poppins',fontWeight:'900'}}>Projects Details</h1>
+        <div>
+            <h1 style={{ color: 'white',marginTop:'20px',marginBottom:'20px',fontFamily:'poppins',fontWeight:'900'}}>Projects Details</h1>
             <Container>
                 <SimpleImageSlider
             width={1100}
@@ -41,7 +42,7 @@ const BarHouse = () => {
             </a>
             </div>
             <div style={{color:'white'}}>
-            <h3 style={{marginTop:'15px',fontFamily:'poppins'}}>Features</h3>
+                <h3 style={{ marginTop: '15px', fontFamily: 'poppins' }}>Features</h3> <hr style={{border:'5px solid white'}}/>
                 <h6 style={{fontFamily:'poppins'}}>•There are several separate sections on the site. You can also go to different pages through Navbar.</h6>
                 <h6 style={{fontFamily:'poppins'}}>•If you’re logged in, a separate dashboard will be displayed for you. You will be able to give reviews if you want. And also will be able to see the products that you have ordered.</h6>
                 <h6 style={{fontFamily:'poppins'}}>•If you are an admin, you’ll see a separate dashboard. You’ll see the required features for admin.</h6>

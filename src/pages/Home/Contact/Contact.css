@@ -1,8 +1,9 @@
+body{
+    background-color: #110e19;
+}
 .form-container{
     display: flex;
     flex-direction: row;
-    background-color: #110e19;
-    height: 130vh;   
 }
 input ,textarea{
     width: 80vh;

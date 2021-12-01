@@ -18,7 +18,7 @@ const Resume = () => {
                 <i className="fa fa-download" aria-hidden="true"></i> Download Resume
               </a>
           </Button> <br /> <br /> */}
-          <h1 style={{color:'white'}}>You can download my resume from here if you want.</h1>
+          <h1 style={{color:'white',marginTop:'6%'}}>You can download my resume from here if you want.</h1>
           <a href={reesume} target="_blank" rel="noopener noreferrer" download>
         <Button style={{marginTop:'50px',backgroundColor:'#a14dc4',fontFamily:'poppins'}}>
          <i className="fas fa-download"/>

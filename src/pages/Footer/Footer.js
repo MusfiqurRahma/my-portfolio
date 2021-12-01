@@ -8,7 +8,7 @@ const Footer = () => {
              <Container>
             <Row>
            <Col xs={12} md={12} className='dev-by'>
-              Copyright &copy;2021,Designed and developed by &hearts; M.Rohoman
+              Copyright &copy;2021,Designed and developed by &hearts; Musfiqur Rohoman
            </Col>
             </Row>
         </Container>

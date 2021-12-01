@@ -32,7 +32,7 @@ const Contact = () => {
        <> <Navigation></Navigation>
         <div className='form-container'>
             <Container>
-            <h1 style={{color:'white'}}>Write To Me</h1> <hr/>
+            <h1 style={{color:'white',marginTop:'5%'}}>Write To Me</h1> <hr/>
             <Row>
               <Col xs={12} md={4}>
                 <img width='450' src="https://i.ibb.co/4PPw09m/man-working-computer-laptop-flat-design-businessman-table-character-work-manager-vector-illustration.png" alt="" />

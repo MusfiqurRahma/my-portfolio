@@ -46,7 +46,7 @@ function App() {
           </Route>
           <Route path='/smartSchool' element={<SmartSchool></SmartSchool>}>
           </Route>
-          <Route path='/superHero' element={<SuperHero></SuperHero>}>
+          <Route path='/superHeroes' element={<SuperHero></SuperHero>}>
           </Route>
           <Route path='/superRestaurant' element={<SuperRestaurant></SuperRestaurant>}>
           </Route>

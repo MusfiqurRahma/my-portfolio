@@ -4,11 +4,12 @@ import Navigation from '../Navigation/Navigation';
 import aboutImg from '../../../Image/about.aee0f771.png';
 import Bounce from 'react-reveal/Bounce';
 import Swing from 'react-reveal/Swing';
+import './About.css';
 
 
 const About = () => {
     return (
-        <div  style={{backgroundColor:'#110e19'}}>
+        <div>
             <Navigation></Navigation>
             <Container>
             <Row className='mt-5'>
@@ -47,7 +48,7 @@ const About = () => {
                     </Card.Body>
                     </Card>  
                  </Col>
-                    <Col xs={12} md={2}>
+                    <Col xs={6} md={2}>
                             <Card style={{ width: '12rem' }}>
                                 <Swing>
                                 <Card.Img style={{height:'182px'}} variant="top" width='100' src="https://i.ibb.co/18pjzzZ/logo.png" />
@@ -57,7 +58,7 @@ const About = () => {
                     </Card.Body>
                     </Card> 
                  </Col>
-                    <Col xs={12} md={2}>
+                    <Col xs={6} md={2}>
                             <Card style={{ width: '12rem' }}>
                                 <Swing>
                                 <Card.Img style={{height:'182px'}} variant="top" src="https://i.ibb.co/2PKDyVb/png-clipart-html-5-logo-web-development-html-css3-canvas-element-web-design-w3c-html5-logo-miscellan.png" />
@@ -67,7 +68,7 @@ const About = () => {
                     </Card.Body>
                     </Card> 
                  </Col>
-                    <Col xs={12} md={2}>
+                    <Col xs={6} md={2}>
                             <Card style={{ width: '12rem' }}>
                                 <Swing>
                                 <Card.Img style={{height:'182px'}} variant="top" src="https://i.ibb.co/8496M3X/919826.png" />
@@ -77,7 +78,7 @@ const About = () => {
                     </Card.Body>
                     </Card> 
                  </Col>
-                    <Col xs={12} md={2}>
+                    <Col xs={6} md={2}>
                             <Card style={{ width: '12rem' }}>
                                 <Swing>
                                 <Card.Img variant="top" src="https://i.ibb.co/vhq9dJV/bootstrap-logo.png" />
@@ -87,7 +88,7 @@ const About = () => {
                     </Card.Body>
                     </Card> 
                  </Col>
-                    <Col xs={12} md={2}>
+                    <Col xs={6} md={2}>
                             <Card style={{ width: '12rem' }}>
                                 <Swing>
                                 <Card.Img variant="top" src="https://i.ibb.co/hC2NkKR/images.png" />
@@ -97,7 +98,7 @@ const About = () => {
                     </Card.Body>
                     </Card>
                  </Col>
-                    <Col xs={12} md={2}>
+                    <Col xs={6} md={2}>
                             <Card style={{ width: '12rem' }}>
                                 <Swing>
                                 <Card.Img variant="top" src="https://i.ibb.co/F8jfSYb/images-1.png" />
@@ -107,7 +108,7 @@ const About = () => {
                     </Card.Body>
                     </Card> 
                  </Col>
-                    <Col xs={12} md={2}>
+                    <Col xs={6} md={2}>
                             <Card style={{ width: '12rem' }}>
                                 <Swing>
                                 <Card.Img style={{height:'190px'}} variant="top" src="https://i.ibb.co/0Dpv4Rm/385-3850455-mongo-database-hd-png-download.jpg" />
@@ -117,7 +118,7 @@ const About = () => {
                     </Card.Body>
                     </Card>
                  </Col>
-                    <Col xs={12} md={2}>
+                    <Col xs={6} md={2}>
                             <Card style={{ width: '12rem' }}>
                                 <Swing>
                                 <Card.Img variant="top" src="https://i.ibb.co/XVrXZyC/event-cover-5388.png" />
@@ -127,7 +128,7 @@ const About = () => {
                     </Card.Body>
                     </Card>
                  </Col>
-                    <Col xs={12} md={2}>
+                    <Col xs={6} md={2}>
                             <Card style={{ width: '12rem' }}>
                                 <Swing>
                                 <Card.Img style={{height:'143px'}} variant="top" src="https://i.ibb.co/F4mVh4c/1611674.png" />
@@ -137,7 +138,7 @@ const About = () => {
                     </Card.Body>
                     </Card>
                  </Col>
-                    <Col xs={12} md={2}>
+                    <Col xs={6} md={2}>
                             <Card style={{ width: '12rem' }}>
                                 <Swing>
                                     <Card.Img style={{ height: '143px' }} variant="top" src="https://i.ibb.co/gFdk09v/netlify-logo.png" />
@@ -147,7 +148,7 @@ const About = () => {
                     </Card.Body>
                     </Card> 
                  </Col>
-                    <Col xs={12} md={2}>
+                    <Col xs={6} md={2}>
                             <Card style={{ width: '12rem' }}>
                                 <Swing>
                                 <Card.Img variant="top" src="https://i.ibb.co/rwxs776/heroku8748.jpg" /></Swing>                    
@@ -156,7 +157,7 @@ const About = () => {
                     </Card.Body>
                     </Card>
                  </Col>
-                    <Col xs={12} md={2}>
+                    <Col xs={6} md={2}>
                             <Card style={{ width: '12rem' }}>
                                 <Swing>
                                 <Card.Img variant="top" src="https://i.ibb.co/Wx53yH4/visual-studio-code7642.jpg" />
@@ -166,7 +167,7 @@ const About = () => {
                     </Card.Body>
                     </Card> 
                  </Col>
-                    <Col xs={12} md={2}>
+                    <Col xs={6} md={2}>
                             <Card style={{ width: '12rem' }}>
                                 <Swing>
                                 <Card.Img style={{height:'143px'}} variant="top" src="https://i.ibb.co/dfMN9ss/768px-Ei-sc-github-svg.png" />
@@ -176,7 +177,7 @@ const About = () => {
                     </Card.Body>
                     </Card> 
                  </Col>
-                    <Col xs={12} md={2}>
+                    <Col xs={6} md={2}>
                             <Card style={{ width: '12rem' }}>
                             <Swing>
                                 <Card.Img style={{height:'140px'}} variant="top" src="https://i.ibb.co/LrgkHWp/figma.jpg" />

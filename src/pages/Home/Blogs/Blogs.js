@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react';
 import Navigation from '../Navigation/Navigation';
 import AOS from 'aos';
-import 'aos/dist/aos.css'; 
+import 'aos/dist/aos.css';
+import './Blog.css';
 
 const Blogs = () => {
     useEffect(() => {
@@ -14,7 +15,7 @@ const Blogs = () => {
       },[])
 
     return (
-        <div style={{backgroundColor:'#110e19',height:'100vh'}}>
+        <div>
             <Navigation></Navigation>
             <h1 data-aos="flip-left"
                         data-aos-easing="ease-out-cubic"

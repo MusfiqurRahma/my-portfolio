@@ -20,7 +20,7 @@ const Body = () => {
         })
       },[])
     return (
-         <div className='body-container' style={{backgroundColor:'#110e19',height:'310vh'}}>
+         <div className='body-container'>
             <Container>
             <Row>
                <Col sm={12} md={7} style={{marginTop:'15%'}}>
@@ -84,7 +84,7 @@ const Body = () => {
                    </Col>
                 </Row>
             </Container>
-            <div style={{ marginTop: '25%' }}>
+            <div style={{ marginTop: '15%',marginBottom:'15%' }}>
             <h1 style={styleColor} data-aos="fade-up"
               data-aos-duration="3000">FOLLOW ME ON</h1>
                 <h5 style={styleColor}>Feel free to <span style={{ color: '#a85fcc'}}>connect</span> with me.</h5>
