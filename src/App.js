@@ -18,11 +18,14 @@ import SmartSchool from './pages/ProjectDetails/SmartSchool/SmartSchool';
 import SuperHero from './pages/ProjectDetails/SuperHero/SuperHero';
 import SuperRestaurant from './pages/ProjectDetails/SuperRestaurant/SuperRestaurant';
 import MacBook from './pages/ProjectDetails/MacBook/MacBook';
+import Navigation from './pages/Home/Navigation/Navigation';
+
 
 function App() {
   return (
     <div className="App">
-        <BrowserRouter>
+      <BrowserRouter>
+        <Navigation></Navigation>
         <Routes>
           <Route path='/' element={<Home></Home>}>
           </Route>
@@ -52,7 +55,7 @@ function App() {
           </Route>
           <Route path='/macBook' element={<MacBook></MacBook>}>
           </Route>
-         </Routes>
+        </Routes>
       </BrowserRouter>
     </div>
   );

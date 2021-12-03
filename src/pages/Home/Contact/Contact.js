@@ -2,7 +2,6 @@ import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
 import './Contact.css';
 import { Col, Container, Row } from 'react-bootstrap';
-import Navigation from '../Navigation/Navigation';
 import Swal from 'sweetalert2'
 
 const Contact = () => {
@@ -29,15 +28,18 @@ const Contact = () => {
         e.target.reset()
       };
     return (
-       <> <Navigation></Navigation>
+       <>
         <div className='form-container'>
             <Container>
-            <h1 style={{color:'white',marginTop:'5%'}}>Write To Me</h1> <hr/>
+            <h1 style={{color:'white',marginTop:'5%',padding:'70px'}}>Write To Me</h1>
             <Row>
               <Col xs={12} md={4}>
-                <img width='450' src="https://i.ibb.co/4PPw09m/man-working-computer-laptop-flat-design-businessman-table-character-work-manager-vector-illustration.png" alt="" />
+                <img
+                  style={{marginTop:'-28%'}}
+                  width='450'
+                  src="https://i.ibb.co/4PPw09m/man-working-computer-laptop-flat-design-businessman-table-character-work-manager-vector-illustration.png" alt="" />
               </Col>
-              <Col xs={12} md={8} style={{marginTop:'5%'}}>
+              <Col xs={12} md={8}>
               <form ref={form} onSubmit={sendEmail}>
             <input type="text" name="name" placeholder='Your Name'/> 
             <input type="email" name="email" placeholder='Your Email' />

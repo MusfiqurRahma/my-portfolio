@@ -25,7 +25,7 @@ const Body = () => {
             <Container>
             <Row>
                <Col sm={12} md={7} style={{marginTop:'15%'}}>
-                  <h2 style={{color:'#ffffff',fontFamily:'poppins'}}>Hey 😍 !</h2>
+                  <h2 style={{color:'#ffffff',fontFamily:'poppins',padding:'15px'}}>Hey 😍 !</h2>
                         <h1 style={{color:'white',fontFamily:'poppins'}}>I'M <span style={{color:'#a14dc4'}}>MD MUSFIQUR ROHOMAN</span></h1>
                         <h1 style={{color:'#a14dc4',fontFamily:'poppins'}}>
                             <Typical
@@ -44,8 +44,8 @@ const Body = () => {
                         ]}
                         /></h1>
                    </Col>
-                    <Col sm={12} md={5} style={{marginTop:'8%'}}>
-                <img height="400" width="350" data-aos="zoom-in-up" src="https://i.ibb.co/09VFbjR/images-removebg-preview.png" alt=""/>
+                    <Col sm={12} md={5} style={{marginTop:'5%'}}>
+                <img height="500" width="400" data-aos="zoom-in-up" src="https://i.ibb.co/m96sqbx/202011-01-removebg-preview.png" alt=""/>
                </Col>
                 </Row>
                 <Row style={{marginTop:'20%'}}>
@@ -60,27 +60,27 @@ const Body = () => {
                             <h1 style={styleColor}>LET ME
                                 <span style={{ color: '#c770f0' }}>   INTRODUCE </span>
                              MYSELF</h1>
-                        <h5 style={styleColor}>I think,I fell in love with programming and Web Developing.</h5>
+                        <h5 style={styleColor}>Programming is my passion</h5>
                         <br />
 
                         <h5 style={styleColor}>I'm very comfortable in such technology like
-                            <i style={{ color: '#c770f0' }}> Javascript,React,MongoDB,Node.js,Express
-                            </i>
+                            <span style={{ color: '#c770f0' }}> Javascript,React,MongoDB,Node.js,Express
+                            </span>
                         </h5>
                         <br />
 
-                        <h5 style={styleColor}>I'm too much interested in<i
-                            style={{ color: '#c770f0' }}> Web Technologies </i> 
+                        <h5 style={styleColor}>I'm too much interested in<span
+                            style={{ color: '#c770f0' }}> Web Technologies </span> 
                                and also in areas related to
-                            <i style={{ color: '#c770f0' }}> Deep Learning and Natural Launguage Processing.
-                            </i>
+                            <span style={{ color: '#c770f0' }}> Deep Learning and Natural Launguage Processing.
+                            </span>
                         </h5>
                         <h5 style={styleColor}>Everyday I try to apply my passion for developing with
-                            <i style={{ color: '#c770f0' }}>  Node.js </i>  
+                            <span style={{ color: '#c770f0' }}>  Node.js </span>  
                                and 
-                             <i style={{ color: '#c770f0' }}> Modern Javascript Library and Frameworks
-                            </i> like
-                            <i style={{ color: '#c770f0' }}> React.js and varieties packages</i> also.
+                             <span style={{ color: '#c770f0' }}> Modern Javascript Library and Frameworks
+                            </span> like
+                            <span style={{ color: '#c770f0' }}> React.js and varieties packages</span> also.
                         </h5>        
                    </Col>
                 </Row>

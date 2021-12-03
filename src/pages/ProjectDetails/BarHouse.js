@@ -14,7 +14,7 @@ const BarHouse = () => {
         <div>
             <h1 style={{ color: 'white',marginTop:'20px',marginBottom:'20px',fontFamily:'poppins',fontWeight:'900'}}>Projects Details</h1>
             <Container>
-                <SimpleImageSlider
+            <SimpleImageSlider
             width={1100}
             height={500}
             images={images}

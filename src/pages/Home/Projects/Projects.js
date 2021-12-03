@@ -10,25 +10,25 @@ import languageSchool from '../../../Image/projects ss/Smart Language School.PNG
 import superHeroProfile from '../../../Image/projects ss/super hero profile.png';
 import macBookPro from '../../../Image/projects ss/mack-book.jpg';
 import superRestaurantProfile from '../../../Image/projects ss/super-duper-restaurant.jpg';
-import Navigation from '../Navigation/Navigation';
 import { Link } from 'react-router-dom';
 import Button from '@restart/ui/esm/Button';
 
 
 const Projects = () => {
    return (
-     <div>
-       <Navigation></Navigation>
-       <h1 style={{color:'white',marginTop:'40px',marginBottom:'50px',fontFamily:'poppins',fontWeight:'900'}}>My Best Works</h1> 
+     <div>      
+       <h1 style={{color:'white',marginTop:'40px',marginBottom:'50px',fontFamily:'poppins',fontWeight:'900',padding:'50px'}}>My Best Works</h1> 
        <Container>
         <VerticalTimeline>
            <VerticalTimelineElement>
              <img
+               className='img-fluid'
                width='400'
                height='220'
                src={barMainImg} alt="" />
              <h3
-               className="vertical-timeline-element-title" style={{ fontFamily: 'poppins' }}>Bar House
+               className="vertical-timeline-element-title"
+               style={{ fontFamily: 'poppins' }}>Bar House
              </h3>
              <h6
                className="vertical-timeline-element-subtitle" style={{ fontFamily: 'poppins' }}>Full-Stack Craft Wooden House Selling Website
@@ -63,6 +63,7 @@ const Projects = () => {
            
   <VerticalTimelineElement>
              <img
+               className='img-fluid'
                width='400'
                height='220'
                src={travolokyProfile} alt="" />
@@ -103,6 +104,7 @@ const Projects = () => {
            
   <VerticalTimelineElement>
              <img
+               className='img-fluid'
                width='400'
                height='220'
                src={healthProfile} alt="" />
@@ -141,6 +143,7 @@ const Projects = () => {
            
   <VerticalTimelineElement>
              <img
+               className='img-fluid'
                width='400'
                height='220'
                src={languageSchool} alt="" />
@@ -176,6 +179,7 @@ const Projects = () => {
            
   <VerticalTimelineElement>
              <img
+               className='img-fluid'
                width='400'
                height='220'
                src={superHeroProfile} alt="" />
@@ -210,6 +214,7 @@ const Projects = () => {
            
   <VerticalTimelineElement>
              <img
+               className='img-fluid'
                width='400'
                height='220'
                src={macBookPro} alt="" />
@@ -244,6 +249,7 @@ const Projects = () => {
            
   <VerticalTimelineElement>
              <img
+               className='img-fluid'
                width='400'
                height='220'
                src={superRestaurantProfile} alt="" />

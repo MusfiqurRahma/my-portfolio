@@ -1,3 +1,15 @@
 body{
     background-color: #110e19;
 }
+.about-btn{
+    color:white;
+    background-color: #b440e2;
+    font-family:poppins;
+    border: 1px solid gray;
+    padding: 5px 15px;
+    margin: 8px;
+    font-size: 20px;
+}
+.about-btn:hover{
+    background-color: #550b72;
+}
