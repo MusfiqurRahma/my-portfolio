@@ -1,3 +1,9 @@
 body{
     background: #110e19;
 }
+@media only screen and(max-width:688px){
+    .carousel-container{
+        width: 50%;
+        height: 50%;
+    }
+}

@@ -13,3 +13,10 @@ body{
 .about-btn:hover{
     background-color: #550b72;
 }
+@media only screen and (max-width:688px) {
+    .about-row{
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+    }
+}

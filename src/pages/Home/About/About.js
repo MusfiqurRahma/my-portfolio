@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import { Card, Col, Container, Row } from 'react-bootstrap';
-import aboutImg from '../../../Image/about.aee0f771.png';
 import Zoom from 'react-reveal/Zoom';
 import './About.css';
 import AOS from 'aos';
@@ -33,13 +32,13 @@ const About = () => {
                   <Link to='/contact'><button className='about-btn'>Contact</button></Link> 
              </Col>
             <Col xs={12} md={6}>
-                <img height='300' src={aboutImg} alt="" />        
+                <img height='330' src='https://i.ibb.co/qxKtr27/unnamed-removebg-preview.png' alt="" />        
              </Col>
                 </Row>
              <h1 style={{ color: 'white',fontFamily:'poppins',fontWeight:'900',marginTop:'5%'}}>My Core Skills</h1>
              <hr style={{color:'white'}}/>
                 <Zoom>
-                <Row style={{gap:'30px',}}>
+                <Row style={{gap:'30px',}} className='about-row'>
                     <Col xs={4} md={2}>
                      <Card style={{ width: '12rem' }}>
                     <Zoom>

@@ -3,7 +3,8 @@ import { Col, Container, Row } from 'react-bootstrap';
 import Typical from 'react-typical';
 import './Body.css';
 import AOS from 'aos';
-import 'aos/dist/aos.css'; 
+import 'aos/dist/aos.css';
+
 
 const styleColor = {
     color: 'white',
@@ -19,14 +20,17 @@ const Body = () => {
           easing: 'ease',
           loop:Infinity
         })
-      },[])
+    }, [])
+
+    
     return (
-         <div className='body-container'>
+        <div className='body-container'>
             <Container>
             <Row>
                <Col sm={12} md={7} style={{marginTop:'15%'}}>
                   <h2 style={{color:'#ffffff',fontFamily:'poppins',padding:'15px'}}>Hey 😍 !</h2>
-                        <h1 style={{color:'white',fontFamily:'poppins'}}>I'M <span style={{color:'#a14dc4'}}>MD MUSFIQUR ROHOMAN</span></h1>
+                        <h1
+                            style={{ color: 'white', fontFamily: 'poppins' }}>I'M <span style={{ color: '#a14dc4' }}>MD MUSFIQUR ROHOMAN</span></h1>
                         <h1 style={{color:'#a14dc4',fontFamily:'poppins'}}>
                             <Typical
                             loop={Infinity}
@@ -60,11 +64,11 @@ const Body = () => {
                             <h1 style={styleColor}>LET ME
                                 <span style={{ color: '#c770f0' }}>   INTRODUCE </span>
                              MYSELF</h1>
-                        <h5 style={styleColor}>Programming is my passion</h5>
+                        <h5 style={styleColor}>Programming is My passion || My Love || My Priority</h5>
                         <br />
 
                         <h5 style={styleColor}>I'm very comfortable in such technology like
-                            <span style={{ color: '#c770f0' }}> Javascript,React,MongoDB,Node.js,Express
+                            <span style={{ color: '#c770f0' }}> Javascript,React,MongoDB,NodeJS,ExpressJS
                             </span>
                         </h5>
                         <br />

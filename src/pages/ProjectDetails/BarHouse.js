@@ -13,7 +13,7 @@ const BarHouse = () => {
     return (
         <div>
             <h1 style={{ color: 'white',marginTop:'20px',marginBottom:'20px',fontFamily:'poppins',fontWeight:'900'}}>Projects Details</h1>
-            <Container>
+            <Container className='carousel-container'>
             <SimpleImageSlider
             width={1100}
             height={500}
